@@ -22,18 +22,18 @@
   
 }
 
-#links_nav{
+.links_nav{
     float:right;
     list-style-type: none;
     margin-top:55px;
     padding-right: 50px;
 }
 
-#links_nav li{
+.links_nav li{
     display: inline-block;
 }
 
-#links_nav li a{
+.links_nav li a{
     font-family: 'Outfit', sans-serif;
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -46,10 +46,14 @@
 h1{
     font-family: 'Outfit', sans-serif;
     font-size:6ch;
+    color: rgb(197, 151, 241);
+    font-weight: bold;
 }
 
-p{
+#informacion{
     font-family:  'Outfit', sans-serif;
+    font-size: large;
+    background-color: rgb(232, 204, 254);
 }
 
 
