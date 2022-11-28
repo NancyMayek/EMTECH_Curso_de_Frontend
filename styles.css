@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#index_head{
+    background-image:url("./Imagenes/Background_index.png" );
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#logo{
+    height: 130px;
+    padding: 2px 60px;
+  
+}
+
+#links_nav{
+    float:right;
+    list-style-type: none;
+    margin-top:55px;
+    padding-right: 50px;
+}
+
+#links_nav li{
+    display: inline-block;
+}
+
+#links_nav li a{
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 2px 4px;
+    margin-right: 50px;
+    font-size: 1.9vh;
+    
+}
+
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-size:6ch;
+}
+
+p{
+    font-family:  'Outfit', sans-serif;
+}
+
+
+
+
+
+
