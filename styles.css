@@ -1,61 +1,224 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit&family=Yeseva+One&display=swap'); 
 
 *{
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+/*NAVEGADOR---------------------------------------------------------*/
+
+/*NAVEGADOR CON LOGO SEARCH BAR Y ICONS*/
+.navegador_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario_nav{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.search_bar_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
-#index_head{
-    background-image:url("./Imagenes/Background_index.png" );
-    height: 110vh;
-    background-size: cover;
-    background-position: center;
+.search_bar_nav input,button{
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: #A11130;
+    font-size: 1.9vh;
 }
 
+.search_bar_nav{
+    width: 700px;
+    height: 45px;
+    background-color: #A11130;
+    display: flex;
+}
 
-#logo{
-    height: 130px;
-    padding: 2px 60px;
-  
+.search_bar_nav input{
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.search_bar_nav button{
+    background-color: #FCDDD2;
+    border-style: none;
+    padding: 10px 50px;
+}
+
+#logo_nav{
+    height: 110px;
+    margin-left: 50px;
+}
+
+#icon_user{
+    height: 40px;
+    margin-right: 20px;
+}
+
+#icon_cart{
+    height: 55px;
+}
+
+/*NAVEGADOR QUE TIENE LOS LINKS A OTRAS PAGINAS*/
+
+.navegador_bottom{
+    display: flex;
+    background-color: #E1AC64;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 10px;
 }
 
 .links_nav{
-    float:right;
-    list-style-type: none;
-    margin-top:55px;
-    padding-right: 50px;
+    display: flex;
+    align-items: center;
 }
 
-.links_nav li{
-    display: inline-block;
-}
 
 .links_nav li a{
     font-family: 'Outfit', sans-serif;
     text-decoration: none;
     color:rgb(255, 255, 255);
     padding: 2px 4px;
-    margin-right: 50px;
+    margin: 70px;
     font-size: 1.9vh;
-    
 }
 
-h1{
+
+
+/*PAGINA: index.html------------------------------------------------*/
+
+/*SLOGAN CON IMAGEN DE FONDO*/
+.img_slogan{
+    margin: 5vh 20vh;
+    border-radius: 30px;
+}
+
+.slogan{
+    position: absolute;
+    top: 45vh;
+    left: 30vh;
+}
+
+.img_slogan h1{
+   color: #e1666a;
+   font-size: 8vh;
+   font-family: 'Abril Fatface', cursive;
+   font-family: 'Outfit', sans-serif;
+   font-family: 'Yeseva One', cursive;
+}
+
+.img_slogan button{
+    background-color: #E1AC64;
+    font-size: 3vh;
+    border-style: none;
+    margin-top: 25px;
+    padding: 10px 50px;
+    color: white;
+}
+
+.img_slogan img{
+    width:100%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+/*UBICACION*/
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0e8a5;
+    padding: 5vh 2vh;
+    margin: 5vh 20vh;
+    border-radius: 30px;
+}
+
+.ubicacion h2{
+    color: #e1666a;
+    font-size: 6vh;
+    font-family: 'Abril Fatface', cursive;
     font-family: 'Outfit', sans-serif;
-    font-size:6ch;
-    color: rgb(197, 151, 241);
-    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+}
+
+.ubicacion h3{
+    font-family:  'Outfit', sans-serif;
+    padding-top: 3vh;
+    color: #b34246;
 }
 
 #informacion{
     font-family:  'Outfit', sans-serif;
-    font-size: large;
-    background-color: rgb(232, 204, 254);
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
 }
 
+/*FOOTER----------------------------------*/
+
+footer{
+    font-size: 2vh;
+    background-color: #E1AC64;
+    padding: 10px;
+}
+
+/*PAGINA: productos.html------------------------------------------------*/
+
+.grid_fotos{
+    background-color: #f0e8a5;
+    display: grid;
+    grid-template-areas: " item1 item2 item3 "
+            " item4 item5 item6 "
+            "item7 item8 item9";
+    gap:5px;
+    padding: 10px;
+}
+
+.item1{
+    grid-area: item1;
+    width: 10px;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+.item6{
+    grid-area: item6;
+}
+.item7{
+    grid-area: item7;
+}
+.item8{
+    grid-area: item8;
+}
+.item9{
+    grid-area: item9;
+}
+.item10{
+    grid-area: item10;
+}
 
 
 

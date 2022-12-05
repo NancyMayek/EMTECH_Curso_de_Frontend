@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ArtPersona/Contacto</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="./Imagenes/logo.png" alt="LOGO DE DE ARTPERSONA">
+    <header  class="nav_background">
+
+        <nav class="navegador">
+            <div class="navegador_top">
+
+                <img src="./Imagenes/logo.png" alt="LOGO DE DE ARTPERSONA" id="logo_nav">
+
+                <div class="search_bar_container">
+                    <form class="search_bar_nav">
+                        <input typr="text" placeholder="Busca tu producto :)">
+                        <button type="submit">BUSCAR</button>
+                    </form>
+                </div>
+                
+                <ul class="usuario_nav">
+                    <li><a href="/login_user.html"><img src="./Imagenes/user.png" alt="icon user" id="icon_user"></a></li>
+                    <li><a href="/carrito.html"><img src="./Imagenes/cart.png" alt="icon cart" id="icon_cart"></a></li>
+                </ul>
+                
+
             </div>
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/productos_y_servicios.html">Productos y Servicios</a></li>
-                <li><a href="/sobre_nosotros.html">Sobre Nosotros</a></li>
-            </ul>
+
+            <div class="navegador_bottom">
+
+                <ul class="links_nav">
+                    <li><a href="/index.html">INICIO</a></li>
+                    <li><a href="/productos.html">PRODUCTOS</a></li>
+                    <li><a href="/servicios.html">SERVICIOS</a></li>
+                    <li><a href="/entregas.html">ENTREGAS</a></li>
+                    <li><a href="/sobre_nosotros.html">CONTACTANOS</a></li>
+                </ul>
+
+            </div>
+
         </nav>
+
     </header>
+
     <main>
         <h1>¡Contactanos!</h1>
         <section>
@@ -59,7 +86,6 @@
                 <input type="submit" value="Enviar">
                 <input type="submit" value="Limpiar">
             </form>
-            <img src="./Imagenes/img4.jpg" alt="Regalos">
         </section>
     </main>
 </body>
