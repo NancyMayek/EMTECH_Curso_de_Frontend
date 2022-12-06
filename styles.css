@@ -206,7 +206,7 @@ footer{
     border-radius: 50px;
 }
 
-/*LOS ESTILOS MAS USADOS TEXTOS*/
+/*LOS ESTILOS MAS USADOS TEXTOS------------------------------*/
 
 .h1_center_pink_cursive{
     text-align: center;
@@ -256,7 +256,7 @@ footer{
     margin-top: 30px;
     margin-bottom:30px;
     color:#E1AC64;
-    font-size: 4vh;
+    font-size: 6vh;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -283,7 +283,7 @@ footer{
     margin-top: 30px;
     margin-bottom:30px;
     color:#E1AC64;
-    font-size: 6vh;
+    font-size: 4vh;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Outfit', sans-serif;
     font-family: 'Yeseva One', cursive;
@@ -294,7 +294,7 @@ footer{
     margin-top: 30px;
     margin-bottom:30px;
     color:white;
-    font-size: 6vh;
+    font-size: 4vh;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Outfit', sans-serif;
     font-family: 'Yeseva One', cursive;
@@ -305,7 +305,7 @@ footer{
     margin-top: 30px;
     margin-bottom:30px;
     color: #e1666a;
-    font-size: 6vh;
+    font-size: 4vh;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -325,4 +325,92 @@ footer{
     color:white;
     font-size: 4vh;
     font-family: 'Outfit', sans-serif;
+}
+
+.normal_text_label{
+    font-family:  'Outfit', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+
+.normal_text_small_label{
+    font-family:  'Outfit', sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
+}
+
+/*PAGINA: sobre_nosotros.html----------------------------*/
+
+.form_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FCDDD2;
+    margin: 5vh 50vh ;
+    border-radius: 50px;
+}
+
+.form_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio_button{
+    margin-bottom: 5px;
+}
+
+.desplegable{
+    width: 20vh;
+    height: 4vh;
+}
+
+.input_text{
+    height: 4vh;
+}
+
+.text_area{
+    width: 80vh;
+    margin:20px;
+}
+
+.bt_lightpink{
+    background-color: #FCDDD2;
+    border-style: none;
+    padding: 10px 50px;
+    color:#A11130;
+    font-size: 2vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    margin: 15px;
+}
+
+.bt_pink{
+    background-color:#b34246;
+    border-style: none;
+    padding: 10px 50px;
+    color:white;
+    font-size: 2vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    margin: 15px;
+}
+
+.bt_yellow{
+    background-color:#E1AC64;
+    border-style: none;
+    padding: 10px 50px;
+    color:white;
+    font-size: 2vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    margin: 15px;
 }

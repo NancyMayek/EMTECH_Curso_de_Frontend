@@ -47,53 +47,62 @@
     </header>
 
     <main>
-        <div class="form">
-            <h1 class="h1_center_pink_cursive">¡Contactanos!</h1>
+        <div>
             <section>
-                <form>
+                <form  class="form_contacto">
                     <div>
-                        <div>
-                            <label >Ingresa tu nombre</label>
-                            <input type="text" name="" id="">
+                        <h1 class="h1_center_pink_cursive">¡Contactanos!</h1>
+                        <div class="form_input">
+                            <label class="normal_text_label">Ingresa tu nombre</label>
+                            <input class="input_text" type="text" name="" placeholder="Nombre" >
                         </div>
-                        <div>
-                            <label for="">Ingresa tu Apellido</label>
-                            <input type="text" name="" id="">
+                        <div class="form_input">
+                            <label class="normal_text_label">Ingresa tu Apellido</label>
+                            <input class="input_text" type="text" name="" placeholder="Apellido" >
                         </div>
-                        <div>
-                            <label for="">Ingresa tu Edad</label>
-                            <input type="number" name="" id="">
+                        <div class="form_input">
+                            <label class="normal_text_label">Ingresa tu Edad</label>
+                            <input class="input_text" type="number" name="" placeholder="Edad">
                         </div>
-                        <div>
-                            <label for="">Ingresa tu Email</label>
-                            <input type="email" name="" placeholder="Ingresa tu email">
+                        <div class="form_input">
+                            <label class="normal_text_label">Ingresa tu Email</label>
+                            <input class="input_text" type="email" name="" placeholder="Email">
                         </div>
                     </div>
                     <div>
-                        <h2>Elije tu sexo</h2>
-                        <label for="">Hombre</label>
-                        <input type="radio" name="sexo" id="">
-                        <label for="">Mujer</label>
-                        <input type="radio" name="sexo" id="">
-                        <label for="">Prefiero no decir</label>
-                        <input type="radio" name="sexo" id="">
+                        <h2 class="h2_center_yellow_cursive">Elije tu sexo</h2>
+                        <div class="form_input">
+                            <div class="radio_button">
+                                <label class="normal_text_label" for="">Hombre</label>
+                                <input type="radio" name="sexo" id="">
+                            </div>
+                            <div class="radio_button">
+                                <label class="normal_text_label" for="">Mujer</label>
+                                <input type="radio" name="sexo" id="">
+                            </div>
+                            <div class="radio_button">
+                                <label class="normal_text_label"  for="">Prefiero no decir</label>
+                                <input type="radio" name="sexo" id="">
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <h2>Tipo de mensaje</h2>
-                        <label for="">Escoje el tipo de mensaje que vas a mandar</label>
-                        <select name="" id="">
-                            <option value="felicitaciones ">Felicitaciones</option>
-                            <option value="queja">Queja</option>
-                            <option value="duda">Duda</option>
-                            <option value="otro">Otro</option>
+                        <h2 class="h2_center_yellow_cursive">Tipo de mensaje</h2>
+                        <label class="normal_text_label" for="">Escoje el tipo de mensaje que vas a mandar</label>
+                        <select class="desplegable" name="" id="">
+                            <option class="normal_text_small_label" value="felicitaciones ">Felicitaciones</option>
+                            <option class="normal_text_small_label" value="queja">Queja</option>
+                            <option class="normal_text_small_label" value="duda">Duda</option>
+                            <option class="normal_text_small_label" value="otro">Otro</option>
                         </select>
                     </div>
                     <div>
-                        <textarea name="" id="" cols="40" rows="15" placeholder="¡Envianos tus dudas o sugerencias!"></textarea>
+                        <textarea class="text_area" name="" id="" cols="40" rows="15" placeholder="¡Envianos tus dudas o sugerencias!"></textarea>
                     </div>
-                
-                    <input type="submit" value="Enviar">
-                    <input type="submit" value="Limpiar">
+                    <div>
+                        <input class="bt_yellow" type="submit" value="Enviar">
+                        <input class="bt_pink" type="submit" value="Limpiar">
+                    </div>
                 </form>
             </section>
         </div>
