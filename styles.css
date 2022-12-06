@@ -171,9 +171,52 @@
 /*FOOTER----------------------------------*/
 
 footer{
-    font-size: 2vh;
-    background-color: #E1AC64;
+    display: flex;
+    justify-content: space-between;
+    background-color:#A11130;
     padding: 10px;
+    font-family: 'Outfit', sans-serif;
+    color:white;
+}
+
+footer h4{
+    font-size: 2.2vh;
+    text-align: center;
+    margin:1vh;
+}
+
+.links_footer{
+   display:flex; 
+}
+
+
+.links_footer li a{
+    font-family: 'Outfit', sans-serif;
+    color:rgb(255, 255, 255);
+    padding: 2px 4px;
+    margin: 10px;
+    font-size: 1.9vh;
+}
+
+#facebook_footer{
+    width: 6vh;
+    margin-left: 10px;
+}
+
+#instagram_footer{
+    width: 8.8vh;
+    margin-left: 10px;
+}
+
+#youtube_footer{
+    width: 6vh;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.redes_sociales{
+    margin-top: 3vh;
+    margin-bottom: 2vh;
 }
 
 /*PAGINA: productos.html------------------------------------------------*/
