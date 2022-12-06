@@ -181,14 +181,14 @@ footer{
 .grid_fotos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right: 200px;
-    margin-left: 200px;
     border-color: #E1AC64;
     border-width: 10px;
 }
 
 .productos{
     margin: 30px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .productos h1{
@@ -203,6 +203,126 @@ footer{
 
 .tarjetas img{
     width: 300px;
-    height: auto;
     border-radius: 50px;
+}
+
+/*LOS ESTILOS MAS USADOS TEXTOS*/
+
+.h1_center_pink_cursive{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color: #e1666a;
+    font-size: 6vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+.h1_center_yellow_cursive{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:#E1AC64;
+    font-size: 6vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+.h1_center_white_cursive{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:white;
+    font-size: 6vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+.h1_center_pink_elegant{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color: #e1666a;
+    font-size: 6vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h1_center_yellow_elegant{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:#E1AC64;
+    font-size: 4vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h1_center_white_elegant{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:white;
+    font-size: 6vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h2_center_pink_cursive{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color: #e1666a;
+    font-size: 4vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h2_center_yellow_cursive{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:#E1AC64;
+    font-size: 6vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+.h2_center_white_cursive{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:white;
+    font-size: 6vh;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+.h2_center_pink_elegant{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color: #e1666a;
+    font-size: 6vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h2_center_yellow_elegant{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:#E1AC64;
+    font-size: 4vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.h2_center_white_elegant{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:white;
+    font-size: 4vh;
+    font-family: 'Outfit', sans-serif;
 }
