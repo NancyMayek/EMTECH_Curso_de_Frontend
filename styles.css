@@ -61,12 +61,21 @@
 }
 
 #icon_user{
-    height: 40px;
-    margin-right: 20px;
+    height: 55px;
+    margin-right: 5px;
 }
 
 #icon_cart{
-    height: 55px;
+    height: 65px;
+}
+
+#icon_user:hover{
+    height: 60px;
+    
+}
+
+#icon_cart:hover{
+    height: 70px;
 }
 
 /*NAVEGADOR QUE TIENE LOS LINKS A OTRAS PAGINAS*/
@@ -92,6 +101,12 @@
     padding: 2px 4px;
     margin: 70px;
     font-size: 1.9vh;
+}
+
+.links_nav li a:hover{
+    font-weight: bolder;
+    font-size: 2.2vh;
+    
 }
 
 
@@ -126,6 +141,16 @@
     padding: 10px 50px;
     color: white;
 }
+
+.img_slogan button:hover{
+    background-color:#A11130;
+    font-size: 3.4vh;
+    border-style: none;
+    margin-top: 25px;
+    padding: 10px 50px;
+    color: white;
+}
+
 
 .img_slogan img{
     width:100%;
